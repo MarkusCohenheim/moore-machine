@@ -12,7 +12,7 @@ This implementation consideres a state to be labeled uniquely; give it a name no
 There are no directly visible transitions. Instead, you define transition tokens that also require a unique name, to be identified easily.
 
 ### Moore Machine
-The moore machine itself starts with an initial state, that is at the same time the current state, but explicitely does not call the "active( )" function of said state. It calls "active( )" only when it enters a new current state; "new" does not exclude entering the same state again, since recursive transitions are viable. You can change the current state by calling "transite( transitionToken )". If you try to take a transition that is not defined for the current state and transition token, the state machine throws an error. This enforces correct behavior, by eliminating the possibility of being stuck on a certain state accidentally.
+The moore machine itself starts with an initial state that is at the same time the current state, but explicitely does not call the "active( )" function of said state. It calls "active( )" only when it enters a new current state; "new" does not exclude entering the same state again, since recursive transitions are viable. You can change the current state by calling "transite( transitionToken )". If you try to take a transition that is not defined for the current state and transition token, the state machine throws an error. This enforces correct behavior, by eliminating the possibility of being stuck on a certain state accidentally.
 
 ### Moore Machine Builder
 You are not supposed to build a moore machine by hand; use the builder for that task. You can use "setInitialState( mooreState )" to set a state as the initial state. You can use "addTransition( originState, transitionToken, destinationState )" to add a transition. You do not need to specifically add each state individually. When the state machine is finalized, you can call "buildMooreMachine( )" to get a copy of the moore machine you configured. If you need another moore machine, just use "reset( )" to restore the builder to it's original setup.
@@ -71,7 +71,7 @@ mooreMachine.transite(transitionToken6); // console: World
 ```
 
 ### See also:
-[Use Case](./usecase/usecase.md)
+[Use Case](./usecase.md)
 
 ## Installation
 
