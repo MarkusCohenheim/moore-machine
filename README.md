@@ -9,7 +9,7 @@ A moore machine is a state machine and therefore has states and transitions betw
 This implementation consideres a state to be labeled uniquely; give it a name no other state has yet. This allows identifying issues and naming the problematic states with ease. A state must also provide a function that is called when the state is acknowledged as the current state of the state machine; this function is called "active( )".
 
 ### Transition Token
-There are no directly visible transitions. Instead, you define transition tokens that also require a unique name, to be identified easily.
+There are no directly visible transitions. Instead, you define transition tokens that also require a unique name to be identified easily.
 
 ### Moore Machine
 The moore machine itself starts with an initial state that is at the same time the current state, but explicitely does not call the "active( )" function of said state. It calls "active( )" only when it enters a new current state; "new" does not exclude entering the same state again, since recursive transitions are viable. You can change the current state by calling "transite( transitionToken )". If you try to take a transition that is not defined for the current state and transition token, the state machine throws an error. This enforces correct behavior, by eliminating the possibility of being stuck on a certain state accidentally.
