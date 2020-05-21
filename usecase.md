@@ -22,10 +22,10 @@ Undefined transitions are forbidden.
 Recursive transitions are allowed and call the "active( )" function once.
 
 ## Take two valid Transitions and visit three different States
-The moore machine does not call the "active( )" function of the initial state, but does call the "active( )" function of the other two states it visits.
+The moore machine does not call the "active( )" function of the initial state, but does call the "active( )" function of the other two states that it visits.
 
-## Create Two Copies of a Moore Machines by one Builder
+## Build Two Copies of a Moore Machine by one Builder
 After declaring a configuration, it should be possible to create two copies of a moore machine by a single builder.
 
-## Create Two different Moore Machines by one Builder
+## Build Two different Moore Machines by one Builder
 After declaring a configuration and building a state machine, it should be possible to reset the builder and create another state machine from another configuration.
