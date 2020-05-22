@@ -20,6 +20,6 @@ describe("Create Moore Machine without an Initial State", function() {
             
             // get an instance of the configured moore machine
             mooreMachineBuilder.buildMooreMachine();
-        });
+        }, /Initial State is not specified./);
     });
 });

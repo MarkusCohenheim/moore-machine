@@ -35,6 +35,6 @@ describe("Create Moore Machine with duplicate Transition Token on same State", f
 
             // get an instance of the configured moore machine
             mooreMachineBuilder.buildMooreMachine();
-        });
+        }, /Transition Token (.|\s)* on State Label (.|\s)* is a duplicate./);
     });
 });

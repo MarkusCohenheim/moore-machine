@@ -34,6 +34,6 @@ describe("Take Transition without defining it", function() {
 
             // take undefined transition
             mooreMachine.transite(transitionToken);
-        });
+        }, /Transition Token (.|\s)* on State Label (.|\s)* is not defined./);
     });
 });

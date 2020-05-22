@@ -33,6 +33,6 @@ describe("Create Moore Machine with duplicate State Labels", function() {
 
             // get an instance of the configured moore machine
             mooreMachineBuilder.buildMooreMachine();
-        });
+        }, /State Label (.|\s)* is a duplicate./);
     });
 });
