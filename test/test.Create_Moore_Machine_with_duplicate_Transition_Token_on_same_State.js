@@ -1,6 +1,8 @@
 /**
  * Title: Create Moore Machine with duplicate Transition Token on same State
  * Description: Duplicate transition token on same the state are forbidden.
+ * Expectation: Test should fail with error.
+ * Error: Transition Token (.|\s)* on State Label (.|\s)* is a duplicate.
  */
 
  // define imports

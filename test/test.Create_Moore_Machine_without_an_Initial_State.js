@@ -1,6 +1,8 @@
 /**
  * Title: Create Moore Machine without an Initial State
  * Description: A state machine should at least have an initial state.
+ * Expectation: Test should fail with error.
+ * Error: Initial State is not specified.
  */
 
  // define imports

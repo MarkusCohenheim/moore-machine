@@ -1,6 +1,7 @@
 /**
  * Title: Take recursive Transition
  * Description: Recursive transitions are allowed and call the "active( )" function once.
+ * Expectation: Test should pass without any errors.
  */
 
  // define imports

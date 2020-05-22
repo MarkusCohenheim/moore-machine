@@ -2,6 +2,7 @@
  * Title: Take two valid Transitions and visit three different States
  * Description: The moore machine does not call the "active( )" function of the initial state,
  * but does call the "active( )" function of the other two states that it visits.
+ * Expectation: Test should pass without any errors.
  */
 
  // define imports

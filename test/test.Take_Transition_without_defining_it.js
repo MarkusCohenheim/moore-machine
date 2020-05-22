@@ -1,6 +1,8 @@
 /**
  * Title: Take Transition without defining it
  * Description: Undefined transitions are forbidden.
+ * Expectation: Test should fail with error.
+ * Error: Transition Token (.|\s)* on State Label (.|\s)* is not defined.
  */
 
  // define imports

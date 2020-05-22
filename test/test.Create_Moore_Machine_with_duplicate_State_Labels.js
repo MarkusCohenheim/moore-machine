@@ -1,6 +1,8 @@
 /**
  * Title: Create Moore Machine with duplicate State Labels
  * Description: Duplicate State Labels are forbidden.
+ * Expectation: Test should fail with error.
+ * Error: State Label (.|\s)* is a duplicate.
  */
 
  // define imports

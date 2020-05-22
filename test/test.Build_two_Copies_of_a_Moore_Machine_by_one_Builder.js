@@ -2,6 +2,7 @@
  * Title: Build two Copies of a Moore Machine by one Builder
  * Description: After declaring a configuration, it should be possible to create
  * two copies of a moore machine by a single builder.
+ * Expectation: Test should pass without any errors.
  */
 
 // define imports

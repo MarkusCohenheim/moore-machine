@@ -2,6 +2,7 @@
  * Title: Build two different Moore Machines by one Builder
  * Description: After declaring a configuration and building a state machine,
  * it should be possible to reset the builder and create another state machine from another configuration.
+ * Expectation: Test should pass without any errors.
  */
 
 // define imports
