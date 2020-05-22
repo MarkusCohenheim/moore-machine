@@ -8,7 +8,7 @@ A state machine should at least have an initial state.
 Duplicate State Labels are forbidden.
 
 ## Create Moore Machine with duplicate Transition Token on same State
-Duplicate Transition Token on same State are forbidden.
+Duplicate transition token on same the state are forbidden.
 
 ## Take Transition without defining it
 Undefined transitions are forbidden.
