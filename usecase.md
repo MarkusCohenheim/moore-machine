@@ -1,11 +1,6 @@
 # Use Case
 Here is a list of all use cases that are supposed to succeed or fail.
 
-## Create Empty Moore Machine
-Creating a moore machine that has no states is not considered correct, because  
-1. it is semantically senseless and
-2. it goes against having at least an initial state.
-
 ## Create Moore Machine without an initial state
 A state machine should at least have an initial state.
 
