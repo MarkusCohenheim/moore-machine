@@ -25,7 +25,7 @@ describe("Build two different Moore Machines by one Builder", function () {
         // states
         let initialState = new MooreState("initial", function () { counterInitialState++ });
         let state1 = new MooreState("state1", function () { counterState1++ });
-        let state2 = new MooreState("state1", function () { counterState2++ });
+        let state2 = new MooreState("state2", function () { counterState2++ });
 
         // transition tokens
         let transitionTokenT = new TransitionToken("T");
