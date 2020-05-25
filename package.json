@@ -1,9 +1,13 @@
 {
   "name": "moore-machine",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A moore machine creates a certain output based solely on the state that it is currently in, therefore ignoring the specific transition that lead into that state.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha",
+    "prepare": "npm test",
+    "example" : "node ./example/example.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarkusCohenheim/moore-machine.git"
