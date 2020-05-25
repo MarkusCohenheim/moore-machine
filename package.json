@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "prepare": "npm test"
+    "prepare": "npm test",
+    "example" : "node ./example/example.js"
   },
   "repository": {
     "type": "git",
