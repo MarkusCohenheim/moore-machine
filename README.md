@@ -81,7 +81,7 @@ mooreMachine.transite(transitionToken6); // console: World
 ### Install as node_module:
 1. Open directory of your project in terminal.
 2. Run in terminal:  
-``npm install http://github.com/MarkusCohenheim/moore-machine#master``
+``npm install MarkusCohenheim/moore-machine#master``
 
 ### Install as standalone:
 1. Clone Repository.
